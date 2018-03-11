@@ -1,2 +1,2 @@
 # cnblog
-this is my cnblog.
+this is my [cnblog](http://www.cnblogs.com/binglilili/).

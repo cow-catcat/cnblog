@@ -1,0 +1,16 @@
+@color1:blue;
+
+.absolute-class(@top:initial, @right:initial, @bottom:initial, @left:initial){
+    position: absolute;
+    top: @top;
+    right: @right;
+    bottom: @bottom;
+    left: @left;
+}
+
+#header {
+    #Header1_HeaderTitle {
+        color: @color1;
+        .absolute-class(initial, 0, 0);
+    }
+}
